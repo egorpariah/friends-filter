@@ -1,6 +1,6 @@
 {{#each list}}
   <li class="list__item friend" data-role="friend" data-id="{{id}}" draggable="true">
-    <img class="friend__photo" src="{{photo_50}}" alt="{{first_name}} {{last_name}}">
+    <img class="friend__photo" src="{{photo_50}}" alt="{{first_name}} {{last_name}}" draggable="false">
     <span class="friend__name">{{first_name}} {{last_name}}</span>
     <button class="{{@root.buttonClass}}" data-role="{{@root.buttonRole}}"></button>
   </li>
