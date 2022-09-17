@@ -1,0 +1,23 @@
+.filter {
+  padding: 10px 14px;
+  height: 46px;
+  display: flex;
+
+  &__input {
+    width: 50%;
+
+    &:first-child {
+      padding-left: 28px;
+      margin-right: 14px;
+      background: url('/src/icons/search.svg') 9px center no-repeat, #fff;
+    }
+
+    &:last-child {
+      margin-left: 14px;
+    }
+
+    &::placeholder {
+      color: #9f9f9f;
+    }
+  }
+}

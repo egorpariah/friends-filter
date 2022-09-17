@@ -1,0 +1,36 @@
+.friend {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  padding-right: 10px;
+
+  &:hover {
+    background: $gray;
+  }
+
+  &__photo {
+    margin-right: 7px;
+    display: block;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  &__button {
+    margin-left: auto;
+    width: 10px;
+    height: 16px;
+    background: url('/src/icons/arrow.svg') center center/contain no-repeat;
+
+    &--remove {
+      width: 13px;
+      height: 13px;
+      background: url('/src/icons/remove.svg') center center/contain no-repeat;
+    }
+  }
+}

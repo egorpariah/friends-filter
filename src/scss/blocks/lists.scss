@@ -1,0 +1,14 @@
+.lists {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  height: 356px;
+
+  &__friends {
+    border-right: 1px solid $gray;
+  }
+
+  &__filter {
+    padding-left: 14px;
+  }
+}

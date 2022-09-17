@@ -1,0 +1,22 @@
+<section class="app__mainscreen mainscreen" data-role="mainscreen">
+  <header class="mainscreen__header header">
+    <h2 class="header__title">Выберите друзей</h2>
+    <button class="header__close"></button>
+  </header>
+  <form class="mainscreen__filter filter" data-role="filter">
+    <input class="filter__input input" type="text" data-role="friends-filter" data-list="friends-list"
+      placeholder="Начните вводить имя друга">
+    <input class="filter__input input" type="text" data-role="list-filter" data-list="filter-list"
+      placeholder="Найти в списке">
+  </form>
+  <div class="mainscreen__lists lists">
+    <div class="lists__friends list">
+      <h3 class="list__header">Ваши друзья</h3>
+      <ul class="list__array" data-role="friendsList"></ul>
+    </div>
+    <div class="lists__filter list">
+      <h3 class="list__header">Друзья в списке</h3>
+      <ul class="list__array" data-role="filterList"></ul>
+    </div>
+  </div>
+</section>

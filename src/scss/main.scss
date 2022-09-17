@@ -1,0 +1,15 @@
+// variables
+$baseFontSize: 14px;
+
+// colors
+$body: #505050;
+$gray: #f0f0f0;
+$accent: #fe8663;
+$background: #e5e5e5;
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import 'base';
+
+// blocks
+@import 'blocks/*.scss';

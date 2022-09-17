@@ -1,0 +1,47 @@
+.login {
+  width: 620px;
+  height: 492px;
+  border-radius: 10px;
+  background: $gray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    font-weight: 500;
+    margin-bottom: 21px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__input {
+    margin-right: 7px;
+  }
+
+  &__button {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: inherit;
+    background: #fe8663;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    height: 26px;
+    border-radius: 40px;
+
+    &:hover {
+      background: #ff6232;
+    }
+  }
+
+  &__error {
+    position: absolute;
+    bottom: -28px;
+  }
+}

@@ -1,0 +1,21 @@
+.header {
+  height: 46px;
+  background: $accent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+
+  &__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  &__close {
+    width: 13px;
+    height: 13px;
+    background: url('/src/icons/close.svg') center center/contain no-repeat;
+  }
+}
